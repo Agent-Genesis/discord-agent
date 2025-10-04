@@ -2,6 +2,12 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Repository Information
+
+**GitHub Repository:** https://github.com/Agent-Genesis/discord-agent
+**Project:** Discord Agent Bot
+**Owner:** Agent-Genesis
+
 ## Development Commands
 
 ```bash
@@ -74,3 +80,23 @@ Current bot permissions integer: `2147552256`
 - `tsx` - TypeScript execution for development
 - `typescript` - TypeScript compiler
 - `eslint` - Code linting
+
+## Git Workflow
+
+This repository is connected to GitHub. Common git commands for this project:
+
+```bash
+# Check status and pull latest changes
+git status
+git pull
+
+# Add changes and commit
+git add .
+git commit -m "Description of changes"
+
+# Push to GitHub
+git push
+
+# Create new branch for features
+git checkout -b feature/new-feature-name
+```
